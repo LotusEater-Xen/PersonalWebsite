@@ -1,0 +1,27 @@
+figcaption{
+   
+ 
+   font-family: "Sans-serif", Arial, serif;
+   color:            white;
+   background-color: rgba(37, 17, 11, 0.6);
+   
+   font-size:1vw;
+   
+  
+   
+ 
+
+}
+
+img{
+   width: 50%;
+}
+#OVER{
+   padding-top: 1vw;
+   background-color: rgba(37, 17, 11, 0);
+   width: 50%;
+}   
+#img-div{
+   width: 100%;
+   text-align: center;
+  }
