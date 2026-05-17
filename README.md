@@ -1,3 +1,4 @@
- https://lotuseater-xen.github.io/PersonalWebsite/ 
- The website currently
+https://committeeofseasideaffairs.github.io/echo/
+
+(The Website is Currently being regenerated)
  
