@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <div className='bg-sky-50'>Lmao</div>
+     <div className='bg-sky-50'>Pyengu is fat penguin</div>
     </>
   )
 }
