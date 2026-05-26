@@ -5,7 +5,7 @@ export default function Page ({header,body_date,body_head,body_text}){
       
         <div>
         <Header text={header}/>
-        <div className='max-w-7xl mx-auto'>
+        <div className='pt-20 max-w-7xl mx-auto'>
         <Body date={body_date}
               head={body_head}
               text={body_text}

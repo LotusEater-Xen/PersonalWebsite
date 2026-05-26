@@ -9,7 +9,8 @@ export default function Home (){
             body_date="26.05.2026"
             body_head="First Initialization"
             body_text="Today marks the first day on which Echo has been active. 
-            It is still undergoing heavy maintanance but soon it will be released."
+            It is still undergoing heavy maintanance but soon it will be released.
+            "
            />
          </div>
     );
