@@ -9,3 +9,4 @@ export default function Body({date,head,text}){
         
         </div>);
 }
+/*yay*/
