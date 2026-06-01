@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 @tailwind base;
@@ -11,7 +12,7 @@
                            'embedded-opentype', and 'svg' */
 }
 
-@import "tailwindcss";
+
 
 @theme{
     --font-lmao: Lmao, "sans-serif";}
