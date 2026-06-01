@@ -21,7 +21,7 @@ function App() {
   <div>
     <Router>
    <Routes>
-    <Route path="/echo/home" element={<Home />}/>
+    <Route path="/echo/" element={<Home />}/>
    </Routes>
     </Router>
  </div>
