@@ -21,8 +21,8 @@ function App() {
       <div><Navbar /></div>
    <div>        <Header 
                    page2="home"
-                   page3="art"
-                    page4="music"/></div>
+                   page3="/echo/art"
+                    page4="/echo/music"/></div>
    <Routes>
     <Route path="/echo/" element={<Home />}/>
     <Route path="/echo/art" element={<Art />}/>
