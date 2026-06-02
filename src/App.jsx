@@ -4,7 +4,7 @@ import { BrowserRouter as Router,
          Routes,
          Link
       } from 'react-router-dom';
-import Home from './pages/Home';
+import {Home,Music,Art} from './pages/index.jsx';
 import Navbar from './components/Navbar';
 import Header from './components/Header1';
 
@@ -12,20 +12,26 @@ import Header from './components/Header1';
 
 function App() {
   return (
-   <div className='min-h-screen bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%'>
-   <div><Navbar /></div>
+   
+   
+   
+ 
+    <Router >
+      <div className='overflow-y-scroll bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%'>
+      <div><Navbar /></div>
    <div>        <Header 
                    page2="home"
                    page3="art"
                     page4="music"/></div>
-  <div>
-    <Router>
    <Routes>
     <Route path="/echo/" element={<Home />}/>
+    <Route path="/echo/art" element={<Art />}/>
+    <Route path="/echo/music" element={<Home />}/>
    </Routes>
+   </div>
     </Router>
- </div>
-    </div>
+
+   
   );
 }
 
