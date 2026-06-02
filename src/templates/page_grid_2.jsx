@@ -16,7 +16,7 @@ export default function Page ({header}){
       
             
               head="Angel"
-              image="src/assets/Posts/Images/angel.png"     
+              image="Posts/Images/angel.png"
             
          />
         </div>
@@ -26,7 +26,7 @@ export default function Page ({header}){
       
             
               head="Sailors Poem"
-              image="src/assets/Posts/Images/sand.png"     
+              image="Posts/Images/sand.png"     
             
          />
         </div>
@@ -36,7 +36,7 @@ export default function Page ({header}){
       
             
               head="PicMix"
-              image="src/assets/Posts/Gifs/wishuwerehere.gif"     
+              image="Posts/Gifs/wishuwerehere.gif"     
             
          />
         </div>
@@ -47,14 +47,14 @@ export default function Page ({header}){
       
             
               head="Fallen of the White Dragon"
-              image="src/assets/Posts/Images/albaz.png"     
+              image="Posts/Images/albaz.png"     
             
          />
         </div>
         <div className='m-auto col-span-2 row-span-1'>
            <Body_post  date="02.06.2026"
               head="Smile"
-              image="src/assets/Posts/Images/smile.png"         />
+              image="Posts/Images/smile.png"         />
 </div>
         
 
@@ -64,7 +64,7 @@ export default function Page ({header}){
       
             
               head="Kassadin"
-              image="src/assets/Posts/Images/kassa2.png"     
+              image="Posts/Images/kassa2.png"     
             
          />
         </div>
